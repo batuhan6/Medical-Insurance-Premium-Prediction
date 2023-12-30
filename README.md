@@ -75,6 +75,10 @@ Converting categorical variables(sex, smoker, region columns) to numerical.
 
 I plot the histograms of the features that I want to take a closer look.
 
+![10](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/be58a77d-b4bd-4b75-8fe5-76868d1d8c72)
+![11](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/ea05c16b-2ba1-4495-ac99-720aea3b8d5d)
+
+
 ## Create Training and Testing Dataset
 
 ## Train and Evaluate a Linear Regression in SCIKIT-LEARN
