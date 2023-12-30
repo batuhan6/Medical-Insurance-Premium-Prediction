@@ -23,11 +23,28 @@ Target(output):
 ## Project steps
 
 1- Import Libraries and Datasets
-![1](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/991630e7-fdfa-4a1d-85fe-6a99abba14c8)
 
 2- Perform Exploratory Data Analysis
 
-Checking are there any null values in the dataset. In this dataset there is no null value.
+3- Perform Feature Engineering
+
+4- Perform Data Visualisation
+
+5- Create Training and Testing Dataset
+
+6- Train and Evaluate a Linear Regression in SCIKIT-LEARN
+
+7- Train and Evaluate an Artificial Neural Network-Based Regression Model
+
+
+## Import Libraries and Datasets
+
+![1](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/991630e7-fdfa-4a1d-85fe-6a99abba14c8)
+
+## Perform Exploratory Data Analysis
+
+Checking are there any missing elements in the dataset. In this dataset there is no null value. 
+
 
 ![2](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/0b2e0792-f26f-4cb5-a1b7-0bfdbcb2e4a1)
 
@@ -44,8 +61,7 @@ I grouped the data according the ages. Generally we see that when age increases 
 ![6](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/db770162-e127-41fa-bd1a-9c2fe06ecb00)
 
 
-
-3- Perform Feature Engineering
+## Perform Feature Engineering
 
 Converting categorical variables(sex, smoker, region columns) to numerical.
 
@@ -54,26 +70,10 @@ Converting categorical variables(sex, smoker, region columns) to numerical.
 ![9](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/ccab5863-d24b-484f-8685-940dbdbbdadf)
 
 
-4- Perform Data Visualisation
-
-I plot the histograms of  the features that I want to take a closer look.
-
-5- Create Training and Testing Dataset
-
-6- Train and Evaluate a Linear Regression in SCIKIT-LEARN
-
-7- Train and Evaluate an Artificial Neural Network-Based Regression Model
-
-
-## Import Libraries and Datasets
-
-## Perform Exploratory Data Analysis
-
-Checking are there any missing elements in my dataset. In this dataset there are no missing data. 
-
-## Perform Feature Engineering
 
 ## Perform Data Visualisation
+
+I plot the histograms of the features that I want to take a closer look.
 
 ## Create Training and Testing Dataset
 
