@@ -2,6 +2,23 @@
 
 ## Project Goal
 
+The objective of this project is to predict the health insurance cost incurred by individuals based on their age, gender, body mass index(BMI), number of children, smoking habits, geo location.
+
+The available features are:
+
+* sex: Insurance contracter gender
+* bmi: Body mass index (ideally 18.5 to 24.9)
+* children: Number of children covered by health insurance
+* smoker:  Smoking
+* region: The beneficiary's resedential area in the US, northeast, southeast, southwest, northwest. 
+
+Target(output):
+* charges: Individualmedical costs billed by health insurance.
+
+
+
+
+
 
 ## Project steps
 
