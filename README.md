@@ -13,7 +13,7 @@ The available features are:
 * region: The beneficiary's resedential area in the US, northeast, southeast, southwest, northwest. 
 
 Target(output):
-* charges: Individualmedical costs billed by health insurance.
+* charges: Individual medical costs billed by health insurance.
 
 
 
@@ -23,8 +23,13 @@ Target(output):
 ## Project steps
 
 1- Import Libraries and Datasets
+![1](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/991630e7-fdfa-4a1d-85fe-6a99abba14c8)
 
 2- Perform Exploratory Data Analysis
+
+Checking are there any null values in the dataset. In this dataset there is no null value.
+
+![2](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/0b2e0792-f26f-4cb5-a1b7-0bfdbcb2e4a1)
 
 3- Perform Feature Engineering
 
@@ -40,6 +45,8 @@ Target(output):
 ## Import Libraries and Datasets
 
 ## Perform Exploratory Data Analysis
+
+Checking are there any missing elements in my dataset. In this dataset there are no missing data. 
 
 ## Perform Feature Engineering
 
