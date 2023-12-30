@@ -73,10 +73,22 @@ Converting categorical variables(sex, smoker, region columns) to numerical.
 
 ## Perform Data Visualisation
 
-I plot the histograms of the features that I want to take a closer look.
+I plot the histograms of the features that I want to take a closer look. From the histograms we see that BMI is around 30. A lot of people do not spend that much, most expenses is between 0-10000 approximatelly and it decreases when it exceeds 10000 Dollars. There is a pretty much balanced data set when it comes to sex. The number of male and female are equally repsesented and lastly we seet that a lot of people do not smoke. Approximatelly 300 people smoke in this study.
 
 ![10](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/be58a77d-b4bd-4b75-8fe5-76868d1d8c72)
 ![11](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/ea05c16b-2ba1-4495-ac99-720aea3b8d5d)
+
+
+Used Seaborn to plot pairplots.
+
+![12](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/20f505e9-8f27-47fc-ab9b-c302f273787a)
+![13](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/038822a5-6146-4a2e-9244-37b2eb3cd6d3)
+
+
+Regression plot. We see that when age and BMI increase, expenses increase as well.
+
+![14](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/d4801d8f-c31c-4050-a10c-257ce7d1eb9c)
+
 
 
 ## Create Training and Testing Dataset
