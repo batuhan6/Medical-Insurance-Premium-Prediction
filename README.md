@@ -136,7 +136,7 @@ To generate y_predict, I applied the predict method to the object passing along 
 ![23](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/eb364721-6247-4048-a964-8343d1517dff)
 
 
-Printing metrics(RMSE, MSE, MAE, r2, adj_r2). R2 gives us an indication for how accurate the model is. It shows us 0.69 of the variations in the output has been represented by the variations in the input. I will try to increase this value. Any number close to 1 is better.   
+Printing metrics(KPIs) like RMSE, MSE, MAE, r2, adj_r2. R2 gives us an indication for how accurate the model is. It shows us 0.69 of the variations in the output has been represented by the variations in the input. I will try to increase this value. Any number close to 1 is better.   
 
 ![24](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/c60f321e-ab88-4be1-a5b8-7df77f9a124c)
 
@@ -144,4 +144,19 @@ Printing metrics(RMSE, MSE, MAE, r2, adj_r2). R2 gives us an indication for how 
 
 ## Train and Evaluate an Artificial Neural Network-Based Regression Model
 
+Importing tensorflow
+
+![26](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/ddbe67f3-607a-4f23-87c0-23c0341afaf0)
+
+
+
+Building the model in a sequential way. Adding layers to my artifical neural network model. Sequentially 50, 150, 50 and 1 neurons sequantially. We see that from the result there are 38 351 trainable parameters. Which are artificail neurol netwrok parameters that we are trying to optimize.
+
+![27](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/ffd9f25b-17c0-47ca-9ff8-04b6d529c7b2)
+
+
+
+I complied my model and choose Adam algorithm for optimizer. Applied fit method to the artificial neurol network model. When I am training the model I want to keep track of my loss(error). I am going to use epocs_hist to plot it. To get an idea how the model is progressing during across training cycles and epocs.  
+
+![28](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/03b99088-5446-4aff-9516-834ffdfd5653)
 
