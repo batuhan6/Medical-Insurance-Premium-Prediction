@@ -139,7 +139,7 @@ To generate y_predict, I applied the predict method to the object passing along 
 Printing metrics(RMSE, MSE, MAE, r2, adj_r2). R2 gives us an indication for how accurate the model is. It shows us 0.69 of the variations in the output has been represented by the variations in the input. I will try to increase this value. Any number close to 1 is better.   
 
 ![24](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/c60f321e-ab88-4be1-a5b8-7df77f9a124c)
-6247-4048-a964-8343d1517dff)
+
 
 
 ## Train and Evaluate an Artificial Neural Network-Based Regression Model
