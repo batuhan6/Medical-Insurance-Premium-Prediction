@@ -128,12 +128,12 @@ Importing LinearRegression, mean_squared_error and accuracy_score from Sklearn. 
 
 To get the regression model accuracy. Applying score method to the object. Passing along test data input and output. We get 69% accuracy.
 
-![21](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/f5ac3046-05fe-4b34-987d-b9ff41a4eb6e)
+![22](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/0969f743-78ae-467b-9c03-c2bd0fc14f1e)
 
 
 To generate y_predict, apply the predict method to the object passing along testing data.  
 
-![22](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/0969f743-78ae-467b-9c03-c2bd0fc14f1e)
+
 
 
 I used inverse trasnform to the y_predict. The reason is that I want to get the outputs which is medical costs and I want to have in Dollar value.   
