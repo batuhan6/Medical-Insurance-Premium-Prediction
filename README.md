@@ -113,6 +113,17 @@ Splitting the data 20% for testing and 80% for training.
 
 ## Train and Evaluate a Linear Regression in SCIKIT-LEARN
 
+Importing LinearRegression, mean_squared_error and accuracy_score from Sklearn.
+
+Instantiating an object. 
+
+To get the regression model accuracy. Applying score method to the object. Passing along test data input and output. We get 69% accuracy.
+
+To generate y_predict, apply the predict method to the object passing along testing data.  
+
+
+
+Printing metrics(RMSE, MSE, MAE, r2, adj_r2)
 
 
 ## Train and Evaluate an Artificial Neural Network-Based Regression Model
