@@ -90,9 +90,23 @@ Regression plot. We see that when age and BMI increase, expenses increase as wel
 ![14](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/d4801d8f-c31c-4050-a10c-257ce7d1eb9c)
 
 
+Correlation Matrix.
+
+![15](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/b057dab2-dbbb-4565-bb7b-5608c6bf1d95)
+
+
+Heat map that shows all correlations. We see that there is a strong correlation 0.79 between charges and smoker. People who tend to smoke have likely to have more charges.
+
+![16](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/e3a3194c-d3c3-451b-bbf0-462af9df1d88)
+
+
 
 ## Create Training and Testing Dataset
 
+
+
 ## Train and Evaluate a Linear Regression in SCIKIT-LEARN
+
+
 
 ## Train and Evaluate an Artificial Neural Network-Based Regression Model
