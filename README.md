@@ -103,6 +103,12 @@ Heat map that shows all correlations. We see that there is a strong correlation 
 
 ## Create Training and Testing Dataset
 
+Cleaning the data and make it ready to train machine learning model. Converting the data into a numpy array with a size of float32. I am doing this because I am going to feed the entire data to the machine learning model. Inputs categorized as x and output in y.  
+
+Scaling the data, input and output. Before training machine learning model.
+
+Splitting the data 20% for testing and 80% for training. 
+
 
 
 ## Train and Evaluate a Linear Regression in SCIKIT-LEARN
