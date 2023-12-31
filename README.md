@@ -131,16 +131,17 @@ To get the regression model accuracy. Applying score method to the object. Passi
 ![22](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/0969f743-78ae-467b-9c03-c2bd0fc14f1e)
 
 
-To generate y_predict, apply the predict method to the object passing along testing data.  
+To generate y_predict, I applied the predict method to the object passing along testing data and used inverse trasnform to the y_predict. The reason is that I want to get the outputs(medical costs) and I want to have in Dollar value.   
+
+![23](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/eb364721-6247-4048-a964-8343d1517dff)
 
 
+Printing metrics(RMSE, MSE, MAE, r2, adj_r2). R2 gives us an indication for how accurate the model is. It shows us 0.69 of the variations in the output has been represented by the variations in the input. I will try to increase this value. Any number close to 1 is better.   
 
-
-I used inverse trasnform to the y_predict. The reason is that I want to get the outputs which is medical costs and I want to have in Dollar value.   
-
-
-
-Printing metrics(RMSE, MSE, MAE, r2, adj_r2)
+![24](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/c60f321e-ab88-4be1-a5b8-7df77f9a124c)
+6247-4048-a964-8343d1517dff)
 
 
 ## Train and Evaluate an Artificial Neural Network-Based Regression Model
+
+
