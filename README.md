@@ -105,10 +105,17 @@ Heat map that shows all correlations. We see that there is a strong correlation 
 
 Cleaning the data and make it ready to train machine learning model. Converting the data into a numpy array with a size of float32. I am doing this because I am going to feed the entire data to the machine learning model. Inputs categorized as x and output in y.  
 
+![17](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/3c1a5a48-a1eb-45b9-9bee-27cee41eab2c)
+
+
 Scaling the data, input and output. Before training machine learning model.
+
+![18](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/cd394ee4-aad6-4bf2-88d4-d60e2aaed640)
+
 
 Splitting the data 20% for testing and 80% for training. 
 
+![19](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/1b4c5a23-4f90-4ef3-8edb-7dded6ab9469)
 
 
 ## Train and Evaluate a Linear Regression in SCIKIT-LEARN
