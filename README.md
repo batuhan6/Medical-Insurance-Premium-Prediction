@@ -150,7 +150,7 @@ Importing tensorflow
 
 
 
-Building the model in a sequential way. Adding layers to my artifical neural network model. Sequentially 50, 150, 50 and 1 neurons sequantially. We see that from the result there are 38 351 trainable parameters. Which are artificail neurol netwrok parameters that we are trying to optimize.
+Building the model in a sequential way. Adding layers to my artifical neural network model. Sequentially 50, 150, 50 and 1 neurons sequantially. Applied a Regularization technic called Dropout to improve network generalization ability. We see that from the result there are 38 351 trainable parameters. Which are artificail neurol netwrok parameters that we are trying to optimize.
 
 ![27](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/ffd9f25b-17c0-47ca-9ff8-04b6d529c7b2)
 
