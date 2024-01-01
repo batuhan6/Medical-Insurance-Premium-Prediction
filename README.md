@@ -160,3 +160,28 @@ I complied my model and choose Adam algorithm for optimizer. Applied fit method 
 
 ![28](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/03b99088-5446-4aff-9516-834ffdfd5653)
 
+
+
+Evaluating the performance of my train model. Models accuracy is 0.78.
+
+![29](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/58884c21-4cec-4c9c-b6a3-4df16e9df491)
+
+
+
+Plotting loss and validation loss.
+
+![30PNG](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/78e11ba2-77de-4fb2-a05a-64426c28e158)
+
+
+
+I am going to apply predict method to artificial neurol network model and pass it along testing data to generate my predictions. I am going to compare y_test versus the model predictions. We see that model predictions and true values are scaled(normalized). 
+
+
+Applying inverse_transform method to take my y_predict and shifted back to y_predict_orig. True values data is coming from testing data set. For a really good regression model you should end up with a straight line with a 45 degree angle.
+
+
+Different metrics.
+
+
+
+
