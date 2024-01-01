@@ -176,12 +176,18 @@ Plotting loss and validation loss.
 
 I am going to apply predict method to artificial neurol network model and pass it along testing data to generate my predictions. I am going to compare y_test versus the model predictions. We see that model predictions and true values are scaled(normalized). 
 
+![31](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/796e0c6d-55bc-475d-8c48-d9f788357270)
+
+
 
 Applying inverse_transform method to take my y_predict and shifted back to y_predict_orig. True values data is coming from testing data set. For a really good regression model you should end up with a straight line with a 45 degree angle.
+
+![32](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/110ce497-7878-4d89-a632-3f6743744074)
+
 
 
 Different metrics.
 
-
+![33](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/47244724-864f-4af9-b55c-062ba8f8fdf7)
 
 
