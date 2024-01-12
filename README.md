@@ -174,7 +174,7 @@ Plotting loss and validation loss.
 
 
 
-I am going to apply predict method to artificial neurol network model and pass it along testing data to generate my predictions. I am going to compare y_test versus the model predictions. We see that model predictions and true values are scaled(normalized). 
+I apply predict method to artificial neurol network model and pass it along testing data to generate my predictions. I compare y_test versus the model predictions. We see that model predictions and true values are scaled(normalized). 
 
 ![31](https://github.com/batuhan6/Medical-Insurance-Premium-Prediction/assets/32600613/796e0c6d-55bc-475d-8c48-d9f788357270)
 
